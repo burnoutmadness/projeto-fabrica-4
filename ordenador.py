@@ -16,4 +16,8 @@ elif peso2 > peso1 and peso2 > peso3:
         print(f"1) {boi2} - {peso2} kg\n2) {boi1} - {peso1} kg\n3) {boi3} - {peso3} kg")
     else:
         print(f"1) {boi2} - {peso2} kg\n2) {boi3} - {peso3} kg\n3) {boi1} - {peso1} kg")
-        
+elif peso3 > peso1 and peso3 > peso2:
+    if peso1 > peso2:
+        print(f"1) {boi3} - {peso3} kg\n2) {boi1} - {peso1} kg\n3) {boi2} - {peso2} kg")
+    else: 
+        print(f"1) {boi3} - {peso3} kg\n2) {boi2} - {peso2} kg\n3) {boi3} - {peso3} kg")
